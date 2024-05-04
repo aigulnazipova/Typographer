@@ -104,13 +104,13 @@ namespace TypographerTests
         {
             // Arrange
             TypographerForm form = new TypographerForm();
-            form.inputTextbox.Text = "Test";
+            form.inputTextbox.Text = "义耱";
 
             // Act
             form.EditTextButton_Click(null, null);
 
             // Assert
-            Assert.AreEqual("Test", form.outputTextbox.Text);
+            Assert.AreEqual("义耱", form.outputTextbox.Text);
         }
 
         [TestMethod]
@@ -118,8 +118,8 @@ namespace TypographerTests
         {
             // Arrange
             TypographerForm form = new TypographerForm();
-            form.inputTextbox.Text = "Test";
-            form.outputTextbox.Text = "Test";
+            form.inputTextbox.Text = "义耱";
+            form.outputTextbox.Text = "义耱";
 
             // Act
             form.ClearButton_Click(null, null);
