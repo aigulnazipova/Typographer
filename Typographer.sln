@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Typographer", "Typographer\Typographer.csproj", "{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypographerTests", "TypographerTests\TypographerTests.csproj", "{A891A29A-FE90-42F7-ABF2-B9C313E03914}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B} = {42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E504A8-BD4C-4A1F-B05B-91C3B9214C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A891A29A-FE90-42F7-ABF2-B9C313E03914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A891A29A-FE90-42F7-ABF2-B9C313E03914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A891A29A-FE90-42F7-ABF2-B9C313E03914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A891A29A-FE90-42F7-ABF2-B9C313E03914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE3A1599-552E-44D5-AB26-0D30CDDEBF10}
+	EndGlobalSection
+EndGlobal
